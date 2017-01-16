@@ -1,0 +1,20 @@
+{
+    "mandatory" : {
+        "by_bank" : "Sender Name"
+    },
+    "bucket" : {
+        "TransactionType" : ["BORR", "LEND"]
+    },
+    "period" : {
+        "startDate" : "2016-09-01",
+        "endDate" : "2016-09-02"
+    },
+    "corridor" : {
+        "One Week" : 1,
+        "Two Week" : 2,
+        "One Month" : 5,
+        "Three Month" : 5,
+        "Six Month" : 10,
+        "Twelve Month" : 10
+    }
+}
